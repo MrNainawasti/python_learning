@@ -57,3 +57,10 @@ class Snake:
         for segment in self.segments[1:]:
             if self.segments[0].distance(segment) < 10:
                 return True
+
+    def reset(self):
+        """restart the game"""
+        for segment in self.segments:
+            segment.goto(800,800)
+        self.segments.clear()
+        self.create_snake()
