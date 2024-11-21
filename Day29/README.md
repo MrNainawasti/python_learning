@@ -25,6 +25,6 @@ JSON is a text format for storing and transporting data.
 JSON is "self-describing" and easy to understand.
 
 some functions of JSON:
-json.dump() - To write in json file
-json.load() - To read json file
-json.update() - To update json file
+1) json.dump() - To write in json file.
+2) son.load() - To read json file.
+3) json.update() - To update json file.
