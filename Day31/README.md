@@ -1,0 +1,2 @@
+# FlashCard Project - Learn French
+This project is built using GUI from Tkinter, pandas library to work with csv files and exception handling in python. when the user runs the project, French word is displayed in the flash card and after 4 seconds its translation in English is displayed. user can click on any of the buttons to change the word. Clicking on right button indicates that the user knows the word and that word won't come again in the queue. 
